@@ -1,3 +1,4 @@
+## Updated by Osiris on 2-27-19
 ##This document will show you how to add icons to the doc on the Mac Mini.  
 
 **First copy over the icons to the Documents folder on the Mac Mini using the Remote Destop Tool from a Mac.  
@@ -8,8 +9,7 @@
 
 /usr/local/bin/dockutil --add /Users/houseuser/Documents/Shortcuts/Office.rdp
 /usr/local/bin/dockutil --add /Users/houseuser/Documents/Shortcuts/CareTracker.webloc
-/usr/local/bin/dockutil --add /Users/houseuser/Documents/Shortcuts/CBIZ.url
-/usr/local/bin/dockutil --add /Users/houseuser/Documents/Shortcuts/CDS.url
+
 /usr/local/bin/dockutil --add /Users/houseuser/Documents/Shortcuts/EMAR.url
 /usr/local/bin/dockutil --add /Users/houseuser/Documents/Shortcuts/HelpDesk.url
 /usr/local/bin/dockutil --add /Users/houseuser/Documents/Shortcuts/KOHO-Password-Manager.url
