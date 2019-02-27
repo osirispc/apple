@@ -1,0 +1,59 @@
+##This document will show you how to add icons to the doc on the Mac Mini.  
+
+**First copy over the icons to the Documents folder on the Mac Mini using the Remote Destop Tool from a Mac.  
+**Then run the following commands in unix using the same tool.  
+
+**Add icon to doc**
+/usr/local/bin/dockutil --add /Users/houseuser/Documents/Shortcuts/KOHO-Password-Manager.url
+
+/usr/local/bin/dockutil --add /Users/houseuser/Documents/Shortcuts/Office.rdp
+/usr/local/bin/dockutil --add /Users/houseuser/Documents/Shortcuts/CareTracker.webloc
+/usr/local/bin/dockutil --add /Users/houseuser/Documents/Shortcuts/CBIZ.url
+/usr/local/bin/dockutil --add /Users/houseuser/Documents/Shortcuts/CDS.url
+/usr/local/bin/dockutil --add /Users/houseuser/Documents/Shortcuts/EMAR.url
+/usr/local/bin/dockutil --add /Users/houseuser/Documents/Shortcuts/HelpDesk.url
+/usr/local/bin/dockutil --add /Users/houseuser/Documents/Shortcuts/KOHO-Password-Manager.url
+/usr/local/bin/dockutil --add /Users/houseuser/Documents/Shortcuts/MyMitc.webloc
+/usr/local/bin/dockutil --add /Users/houseuser/Documents/Shortcuts/PIN-Login.url
+/usr/local/bin/dockutil --add /Users/houseuser/Documents/Shortcuts/Supervisor-Login.url
+/usr/local/bin/dockutil --add /Users/houseuser/Documents/Shortcuts/SharePoint.webloc
+
+**New Links**
+/usr/local/bin/dockutil --add /Users/houseuser/Documents/Shortcuts/PIN-Login.webloc
+/usr/local/bin/dockutil --add /Users/houseuser/Documents/Shortcuts/Supervisor-Login.webloc
+
+-----------------------------------------------------------------------------------------------------------
+**Move icon in doc**
+
+/usr/local/bin/dockutil --move CareTracker.webloc --position 1 
+/usr/local/bin/dockutil --move CBIZ.url --position 2
+/usr/local/bin/dockutil --move EMAR.url --position 3
+/usr/local/bin/dockutil --move Relias.webloc --position 4
+/usr/local/bin/dockutil --move Office.rdp --position 5
+/usr/local/bin/dockutil --move HelpDesk.url --position 6
+/usr/local/bin/dockutil --move KOHO-Password-Manager.url --position 7
+/usr/local/bin/dockutil --move PIN-Login.url --position 8
+/usr/local/bin/dockutil --move Supervisor-Login.url --position 9
+/usr/local/bin/dockutil --move SharePoint.webloc --position 10
+/usr/local/bin/dockutil --move MyMitc.webloc --position 11
+
+
+**New Position**
+/usr/local/bin/dockutil --move PIN-Login.webloc --position 8
+/usr/local/bin/dockutil --move Supervisor-Login.webloc --position 9
+
+
+------------------------------------------------------------------------------------------------------------
+**Remove icon from doc**
+
+/usr/local/bin/dockutil --remove Office.rdp
+/usr/local/bin/dockutil --remove CareTracker.webloc
+/usr/local/bin/dockutil --remove CBIZ.url
+/usr/local/bin/dockutil --remove CDS.url
+/usr/local/bin/dockutil --remove EMAR.url
+/usr/local/bin/dockutil --remove HelpDesk.url
+/usr/local/bin/dockutil --remove KOHO-Password-Recovery.url
+/usr/local/bin/dockutil --remove MyMitc.webloc
+/usr/local/bin/dockutil --remove 'Service Log PIN Login.url'
+/usr/local/bin/dockutil --remove 'Service Log Supervisor Login.url'
+/usr/local/bin/dockutil --remove SharePoint.webloc

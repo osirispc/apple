@@ -1,0 +1,29 @@
+Add Benefit Express
+
+/usr/local/bin/dockutil --add /Users/houseuser/Documents/Shortcuts/BenefitExpress.webloc
+
+/usr/local/bin/dockutil --move BenefitExpress.webloc --position 1
+
+
+
+Remove CDS and Citrix
+
+/usr/local/bin/dockutil --remove 'Citrix Web'
+/usr/local/bin/dockutil --remove 'College of Direct Support'
+
+
+Relias
+
+/usr/local/bin/dockutil --add /Users/houseuser/Documents/Shortcuts/Relias.webloc
+
+/usr/local/bin/dockutil --remove CDS.url
+
+/usr/local/bin/dockutil --move Relias.webloc --position 4
+
+
+
+Software update recommended
+
+sudo softwareupdate -irv
+
+
