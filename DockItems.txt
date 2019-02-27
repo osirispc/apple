@@ -26,7 +26,7 @@
 
 /usr/local/bin/dockutil --move BenefitExpress.webloc --position 1
 /usr/local/bin/dockutil --move CareTracker.webloc --position 2
-/usr/local/bin/dockutil --move Cerner.webloc --position 2
+/usr/local/bin/dockutil --move Cerner.webloc --position 12
 /usr/local/bin/dockutil --move EMAR.url --position 3
 /usr/local/bin/dockutil --move HelpDesk.url --position 4
 /usr/local/bin/dockutil --move KOHO-Password-Manager.url --position 5
